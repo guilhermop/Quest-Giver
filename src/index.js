@@ -1,7 +1,7 @@
 import { AppState, Project, Todo } from './models.js';
 import { saveState, loadState }     from './storage.js';
 import { renderSidebar }            from './sidebar.js';
-import { renderTodoList }           from './todoList.js';
+import { renderTodoList }           from './todolist.js';
 import { renderDetailPanel }        from './detailPanel.js';
 import { openAddTodoModal, openAddProjectModal, closeModal } from './modal.js';
  
